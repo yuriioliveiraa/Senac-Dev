@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+    <script src="ex08.js"></script>
+    <link rel="stylesheet" href="ex08.css">
+</head>
+
+<body>
+    <h1>Exercicio 8</h1>
+    <div class="container">
+       
+        <h2>Soma de dois numeros</h2>
+        <label for="numero1">Digite o primeiro numero:</label>
+        <input type="text" id="numero1" placeholder="Primeiro Numero" required>
+
+        <label for="numero2">Digite o segundo numero:</label>
+        <input type="text" id="numero2" placeholder="Segundo Numero" required>
+
+        <button onclick="calcularSoma()">Calcular</button>
+
+        <div id="resultado" class="result" style="display: none;">
+            A soma é: <span id="soma"></span>
+            A subtração é: <span id="sub"></span>
+            A multplicação é: <span id="mult"></span>
+            A divisão é: <span id="divisao"></span>
+        </div>
+    </div>
+
+</body>
+
+</html>

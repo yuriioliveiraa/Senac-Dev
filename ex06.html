@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 6</title>
+    <script>
+        // solicita a idade do usuario
+        let idade = prompt("Qual a sua idade?");
+        // converte a idade para um numero, caso o usuario insira um valor numerico em formato string
+        idade = parseInt(idade);
+        // verifica se a idade é um numero valido e emite a mensagem correspondente
+        if (isNaN(idade)) {
+            alert("Por favor, insra um numero valido." );
+        } else if (idade < 18) {alert("Você é menor de idade.");
+    } else {
+        alert("Você é maior de idade.");
+    }
+    </script>
+</head>
+<body>
+    <h1>Exercicio 6</h1>
+    
+</body>
+</html>
